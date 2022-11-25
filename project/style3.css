@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header1{
+    background-color:#1C2039;
+    position: absolute;
+    width: 100%;
+    top: -2px;
+    padding: 5px;
+    height: 80px;
+}
+.logo{
+    transform: scale(.8);
+    margin-top: -10px;
+    margin-left: -70px;
+}
+.navbar .fa-chevron-down{
+    color: white;
+}
+.navbar ul{
+    margin-left: 650px;
+    margin-top: -120px;
+    display: flex;
+}
+.navbar li{
+    list-style-type: none;
+    padding: 12px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.explore{
+    background-color: #6161FF;
+    width: 200px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;margin-left: 70px;
+}
+.navbar .fa-bell{
+    margin-top: 12px;
+    color: white;
+    margin-left: 60px;
+    
+}
+.bg-image{
+    background-image:
+    linear-gradient(rgba(13, 16, 41, 0.808), rgba(0, 0, 0, 0.7)),
+    url('images/img09.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.blocks{
+    color: white;
+    text-decoration: underline #1C2039;
+    pointer-events: text;
+    background-color: #1C2039;
+    width: 500px;
+    padding: 5px;
+    height: 150px;
+    position: absolute;
+    top: 200px;
+    left: 767px;
+    border-radius: 10px;
+}
+.date h4{
+    margin-left: 70px;
+}
+.date p{
+    margin-left: 30px;
+    opacity: .8;
+    margin-top: -15px;
+}
+.time h4{
+    margin-left: 380px;
+    margin-top: -60px;
+}
+.time p{
+    margin-left: 340px;
+    opacity: .8;
+    margin-top: -15px;
+}
+.locate{
+    margin-top: -30px;
+}
+.location h4{
+    text-align: center;
+}
+.location p{
+    text-align: center;
+    opacity: .8;
+    margin-top: -15px;
+}
+.location .lock{
+    margin-top: -15px;
+} 
+.location-icon{
+    position: relative;
+    top: 65px;
+    left: 31px;
+}
+.love{
+    position: relative;
+    left: 438px;
+    top: -50px;
+}
+.love i{
+    transform: scale(1.5);
+}
+.tickettext h1{
+    color:  black;
+    text-decoration: underline white;
+    margin-left: 50px;
+    cursor: text;
+}
+.tickets{
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    width: 1242px;
+    height: 80px;
+    padding: 8px;
+    text-decoration: underline white;
+    color: black;
+    cursor: text;
+    position: relative;
+    left: 50px;
+    box-shadow: 5px 5px 3px 2px rgb(226, 222, 222);
+}
+.tickets .plat{
+    margin-left: 20px;
+}
+.tickets .person{
+    margin-top: -35px;
+    margin-left: 130px;
+}
+.increament{
+    position: absolute;
+    left: 1100px;
+    top: 24px;
+}
+.increament p::before{
+    content: '-';
+    background-color: #6161FF;
+    border-radius: 10px 0 0 10px;
+    padding: 10px;
+}
+.increament p::after{
+    content: '+';
+    background-color: #6161FF;
+    border-radius: 0 10px 10px 0;
+    padding: 10px;
+}
+.input{
+    position: relative;
+    left: 410px;
+}
+.input .event:hover{
+    transform: translateX(6px);
+}
+.input .check:hover{
+    transform: translateX(6px);
+}
+.input button{
+    width: 230px;
+    padding: 12px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 10px;
+}
+.input .event{
+    background-color: white;
+    color: #6161FF;
+    border: solid 1px rgb(202, 198, 198);
+    box-shadow: 2px 3px 3px 2px rgb(202, 198, 198);
+    transition: .5s ease;
+}
+.input .check{
+    background-color: #6161FF;
+    color: white;
+    box-shadow: 2px 3px 3px 2px #6868f7;
+    margin-left: 60px;
+    transition: .5s ease;
+}
+
+.footer{
+    background-color: #1C2039;
+    margin-top: 50px;
+    padding: 5px;
+    display: flex;
+}
+.links{
+    display: inline-block;
+    margin-left: 150px;
+}
+.links li{
+    list-style-type: none;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+}
+.links .sublinks{
+    opacity: .7;
+    margin-left: -40px;
+    margin-top: -10px;
+}
+.links a{
+    transition: .5s ease;
+}
+.links a:hover{
+    color: #6161FF;
+}
+.footer-icons{
+    transform: scale(2);
+    position: relative;
+    left: 1590px;
+    top: -35px;
+}
+.footer-icons .fa-brands{
+    color: white;
+    opacity: .7;
+    padding: 3px;
+    transition: .5s ease;
+}
+.footer-icons .fa-brands:hover{
+    transform: scale(1.5);
+    color: #6161FF;
+}
